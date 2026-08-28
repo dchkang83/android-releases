@@ -22,25 +22,26 @@
 <p>본 개인정보처리방침은 dchkang83(이하 "개발자")이 배포하는 모바일 게임 <strong>톡톡: 키보드 정령</strong>(이하 "앱")에 적용됩니다.</p>
 
 <h2>1. 개발자가 직접 수집하는 정보</h2>
-<p>앱은 회원가입이나 로그인 기능이 없으며, 개발자는 이용자의 이름, 이메일 주소, 전화번호 등 <strong>어떠한 개인정보도 직접 수집하지 않습니다.</strong></p>
+<p>앱은 회원가입이나 로그인 기능이 없으며 이름, 이메일 주소, 전화번호 또는 정확한 생년월일을 요청하지 않습니다.</p>
 <p>톡톡: 키보드 정령은 3D 키보드를 두드리며 스위치 정령을 수집하고 꾸미는 감성 피젯 게임입니다. 회원가입·로그인이 없으며 게임 진행 데이터는 기기 안에만 저장됩니다.</p>
-<p>앱이 저장하는 데이터(게임 진행 데이터(코인·다이아 보유량, 수집한 정령, 꾸미기 설정, 미션 진행도)와 거친 연령 구간(미선택·만 13세 미만·만 13세 이상)은 기기 내부 저장소에만 JSON 으로 저장되며 개발자 서버로 전송되지 않습니다. 연령 구간을 선택하기 전에는 광고 SDK를 초기화하지 않습니다. 선택 후 Google AdMob SDK가 광고 ID 등 기기 식별자와 광고 성과·진단 데이터를 수집할 수 있습니다. 인앱 결제는 Google Play 결제 시스템이 처리하며 앱은 결제 카드 정보에 접근하지 않습니다. 모든 다이아 상품은 소모성이며 로컬 다이아 잔액은 앱 삭제·기기 변경 시 복원되지 않습니다.)는 <strong>이용자 기기 내부에만 저장</strong>되며, 앱을 삭제하면 함께 삭제됩니다. 개발자의 서버로 전송되지 않으며, 개발자는 이를 열람할 수 없습니다.</p>
+<p>게임 진행 데이터(코인·다이아 보유량, 수집한 정령, 꾸미기 설정, 미션 진행도)와 거친 연령 구간(<code>미선택</code>, <code>만 13세 미만</code>, <code>만 13세 이상</code>)은 <strong>이용자 기기 내부에만 저장</strong>됩니다. 정확한 나이 또는 생년월일은 저장하지 않습니다. 이 로컬 데이터는 앱을 삭제하면 함께 삭제되며 개발자 서버로 전송되지 않습니다.</p>
 
 <h2>2. 광고 서비스</h2>
-<p>앱은 광고 게재를 위해 AdMob 을(를) 사용합니다. 광고 서비스 제공자는 광고 게재, 게재 빈도 조절, 부정행위 방지를 위해 다음 정보를 자동으로 수집할 수 있습니다.</p>
-<ul><li>광고 ID (Android Advertising ID)</li><li>기기 정보 (모델명, OS 버전, 화면 크기 등)</li><li>IP 주소 및 이로부터 추정되는 대략적인 위치</li><li>앱 상호작용 정보 (광고 노출·클릭 등)</li></ul>
+<p>연령 구간을 선택하기 전에는 AdMob SDK를 초기화하거나 광고를 요청하지 않습니다. 만 13세 미만 선택에는 아동 대상·동의 연령 미만 처리를 적용하며, 모든 연령 구간의 광고를 G 등급 및 비개인 맞춤형으로 제한합니다. 앱은 비공개 테스트 기간에 Google 공식 테스트 광고 단위를 사용합니다.</p>
+<p>앱은 광고 게재를 위해 AdMob 을(를) 사용합니다. 광고 서비스 제공자는 광고 또는 마케팅, 분석, 사기 방지·보안·규정 준수를 위해 다음 정보를 자동으로 수집하거나 공유할 수 있습니다.</p>
+<ul><li>광고 ID 등 기기 식별자</li><li>기기 정보 (모델명, OS 버전, 화면 크기 등)</li><li>IP 주소 및 이로부터 추정되는 대략적인 위치</li><li>앱 상호작용 정보 (광고 노출·클릭 등)</li><li>앱 정보 및 성능 데이터 (비정상 종료 로그와 진단 정보 등)</li></ul>
 <p>이러한 정보의 처리는 해당 제공자의 개인정보처리방침을 따릅니다: <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a> · <a href="https://support.google.com/admob/answer/6128543">AdMob 데이터 정책</a></p>
 <p>이용자는 기기 설정(설정 → Google → 광고)에서 광고 ID를 재설정하거나 삭제하여 맞춤 광고를 제한할 수 있습니다.</p>
 
 <h2>3. 인앱 결제</h2>
 <p>앱 내 상품 구매는 <strong>Google Play 결제 시스템</strong>을 통해 처리됩니다. 결제 과정에서 카드 번호 등 결제 정보는 Google이 처리하며, 개발자는 이를 수신하거나 저장하지 않습니다. 개발자가 확인할 수 있는 것은 구매의 성공·실패 여부뿐입니다.</p>
-<p>구매한 재화는 기기 내부에 저장됩니다. 앱을 삭제하거나 기기를 변경하면 <strong>복원되지 않습니다.</strong></p>
+<p>모든 다이아 상품은 소모성입니다. 구매로 받은 다이아 보유량과 그 밖의 로컬 게임 진행은 기기에만 저장되므로 앱을 삭제하거나 기기를 변경하면 <strong>복원되지 않습니다.</strong></p>
 
 <h2>4. 정보의 제3자 제공</h2>
 <p>개발자는 이용자 정보를 별도로 수집하지 않으므로 제3자에게 제공하거나 판매하지 않습니다. 위 항목에 기재된 Google 서비스가 각자의 정책에 따라 정보를 처리하는 것이 전부입니다.</p>
 
 <h2>5. 아동의 개인정보</h2>
-<p>앱은 만 13세 미만 아동을 주 대상으로 하지 않으며, 아동의 개인정보를 고의로 수집하지 않습니다. 만 13세 미만 아동이 정보를 제공했다고 판단되는 경우 아래 연락처로 알려 주시면 확인 후 조치하겠습니다.</p>
+<p>앱의 대상 연령에는 만 13세 미만 이용자가 포함됩니다. 앱은 생년월일이나 연락처를 요청하지 않고, 로컬에 저장된 거친 연령 구간에 따라 위의 아동 보호 광고 설정을 적용합니다. AdMob이 처리할 수 있는 정보에는 제2항의 제공자 정책이 적용됩니다.</p>
 
 <h2>6. 이용자의 권리</h2>
 <p>앱이 저장하는 모든 데이터는 이용자 기기 안에만 존재합니다. 따라서 이용자는 <strong>앱을 삭제하는 것만으로</strong> 저장된 모든 데이터를 완전히 삭제할 수 있습니다. 별도의 삭제 요청 절차는 필요하지 않습니다.</p>
@@ -53,30 +54,31 @@
 
 <hr>
 
-<h1>Thock Thock Privacy Policy</h1>
+<h1>Thock Thock: Keyboard Spirits Privacy Policy</h1>
 <p class="meta">Effective: 2026-08-28</p>
-<p>This privacy policy applies to the mobile game <strong>Thock Thock</strong> published by dchkang83 ("the developer").</p>
+<p>This privacy policy applies to the mobile game <strong>Thock Thock: Keyboard Spirits</strong> published by dchkang83 ("the developer").</p>
 
 <h2>1. Information the developer collects</h2>
-<p>The app has no sign-up or sign-in. The developer does <strong>not collect any personal information</strong> such as your name, email address, or phone number.</p>
+<p>The app has no sign-up or sign-in and does not ask for a name, email address, phone number, exact age, or birth date.</p>
 <p>Thock Thock: Keyboard Spirits is a cozy fidget game where you tap a 3D keyboard, collect switch spirits and decorate. There is no sign-up or login; game progress is stored only on your device.</p>
-<p>All data the app stores (Game progress (coins/diamonds, collected spirits, customization, mission progress) and a coarse age band (unknown, under 13, or 13+) are stored only in local JSON and are never sent to the developer's server. The ads SDK is not initialized before an age-band choice. After selection, Google AdMob may collect device identifiers such as the advertising ID and ad performance/diagnostics data. In-app purchases are processed by Google Play Billing; the app never accesses payment card details. All diamond products are consumable, and local diamond balances are not restored after deletion or a device change.) is kept <strong>on your device only</strong> and is deleted together with the app. It is never sent to the developer's server.</p>
+<p>Game progress (coins/diamonds, collected spirits, customization, and mission progress) and a coarse age band (<code>unknown</code>, <code>under 13</code>, or <code>13+</code>) are kept <strong>on your device only</strong>. The app does not store an exact age or birth date. This local data is deleted with the app and is never sent to the developer's server.</p>
 
 <h2>2. Advertising</h2>
-<p>The app uses AdMob to serve ads. The ad provider may automatically collect the following to deliver ads, cap frequency, and prevent fraud:</p>
-<ul><li>Advertising ID (Android Advertising ID)</li><li>Device information (model, OS version, screen size)</li><li>IP address and coarse location derived from it</li><li>Ad interaction data (impressions, clicks)</li></ul>
+<p>The app does not initialize AdMob or request an ad before an age-band choice. An under-13 choice applies child-directed and under-age-of-consent treatment. Ads for every age band are capped at G and requested as non-personalized. The closed-test release uses Google's official test ad unit.</p>
+<p>The app uses AdMob to serve ads. For advertising or marketing, analytics, and fraud prevention, security, and compliance, the ad provider may automatically collect or share:</p>
+<ul><li>Device identifiers such as the Advertising ID</li><li>Device information (model, OS version, screen size)</li><li>IP address and coarse location derived from it</li><li>Ad interaction data (impressions, clicks)</li><li>App information and performance data (including crash logs and diagnostics)</li></ul>
 <p>Such processing follows the provider's policies: <a href="https://policies.google.com/privacy">Google Privacy Policy</a> · <a href="https://support.google.com/admob/answer/6128543">AdMob data policy</a></p>
 <p>You can reset or delete your Advertising ID in device settings (Settings → Google → Ads) to limit personalized advertising.</p>
 
 <h2>3. In-app purchases</h2>
 <p>In-app purchases are processed by the <strong>Google Play billing system</strong>. Payment details such as card numbers are handled by Google; the developer neither receives nor stores them, and only learns whether a purchase succeeded or failed.</p>
-<p>Purchased items are stored on the device. They are <strong>not restored</strong> if you delete the app or change devices.</p>
+<p>All diamond products are consumable. Diamond balances received from purchases and other local game progress are stored only on the device and are <strong>not restored</strong> if you delete the app or change devices.</p>
 
 <h2>4. Sharing with third parties</h2>
 <p>The developer does not sell or share user information with third parties. Only the Google services listed above process data under their own policies.</p>
 
 <h2>5. Children's privacy</h2>
-<p>The app is not directed to children under 13 and does not knowingly collect their personal information. If you believe a child under 13 has provided information, contact us below and we will address it.</p>
+<p>The app's intended audience includes users under 13. It does not request birth dates or contact details and applies the child-protective ad settings described above based on the coarse age band stored locally. Information that AdMob may process is governed by the provider policies in Section 2.</p>
 
 <h2>6. Your rights</h2>
 <p>All data the app stores exists only on your device. <strong>Deleting the app</strong> removes it completely — no separate deletion request is needed.</p>
